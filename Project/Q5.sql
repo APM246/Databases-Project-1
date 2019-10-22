@@ -1,0 +1,5 @@
+CREATE FUNCTION numFlavours(coneNumber INT)
+RETURNS INT DETERMINISTIC
+RETURN (SELECT COUNT(DISTINCT scoopID)
+FROM scoopsincone
+WHERE coneID = coneNumber);

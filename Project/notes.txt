@@ -1,0 +1,1 @@
+cardinality constraint for cone -> a cone in general or specifically cone from list (that has already been sold) 
